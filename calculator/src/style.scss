@@ -1,0 +1,49 @@
+.container{
+  width: 335px;
+  height: 410px;
+  background-color: #FFFAFA;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 1px solid #BFBFBF;
+  box-shadow: 5px 5px 5px #aaaaaa;
+
+#txt{
+  font-size: 40px;
+  padding: 4px;
+  width: 300px;
+  height: 40px;
+  margin: 13px 13px 0 13px;
+  
+}
+.grid {
+    margin: 18px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    height: 250px;
+    font-family: "Lucida Console";
+      #span-col-2{
+        grid-column: span 2 / auto;
+        padding-top: 10px;
+        
+       }
+      #span-row-2{
+        grid-row: span 2 / auto;
+        padding-top: 40px;
+        background-color: #ffe211;
+      }
+    .box{
+      background-color: rgb(220,220,220);
+      padding: 10px;
+      cursor: pointer;
+      transition: all .2s ease-in-out; 
+    }
+  .box:hover{
+    transform: scale(1.05);
+  } 
+}
+}
+
