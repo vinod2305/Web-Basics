@@ -1,0 +1,117 @@
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+body .wrap,
+#slider .wrap,
+.wrap .wrap,
+.slide-content .wrap {
+  position: relative;
+}
+body .slide,
+#slider .slide,
+.wrap .slide,
+.slide-content .slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s;
+}
+body .slide1,
+#slider .slide1,
+.wrap .slide1,
+.slide-content .slide1 {
+  background-image: url("https://www.slrlounge.com/wp-content/uploads/2017/04/peter-mckinnon-printing-2.png");
+}
+body .slide2,
+#slider .slide2,
+.wrap .slide2,
+.slide-content .slide2 {
+  background-image: url("https://www.slrlounge.com/wp-content/uploads/2017/04/peter-mckinnon-printing-1.png");
+}
+body .slide3,
+#slider .slide3,
+.wrap .slide3,
+.slide-content .slide3 {
+  background-image: url("https://petapixel.com/assets/uploads/2017/05/afterpete.jpg");
+}
+body .slide-content,
+#slider .slide-content,
+.wrap .slide-content,
+.slide-content .slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .slide-content span,
+#slider .slide-content span,
+.wrap .slide-content span,
+.slide-content .slide-content span {
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+}
+body .arrow,
+#slider .arrow,
+.wrap .arrow,
+.slide-content .arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+body #arrow-left,
+#slider #arrow-left,
+.wrap #arrow-left,
+.slide-content #arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+body #arrow-right,
+#slider #arrow-right,
+.wrap #arrow-right,
+.slide-content #arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+body .fade,
+#slider .fade,
+.wrap .fade,
+.slide-content .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
