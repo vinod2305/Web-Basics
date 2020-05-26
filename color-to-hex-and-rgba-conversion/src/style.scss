@@ -1,0 +1,53 @@
+.container{
+  font-family: 'Inconsolata', monospace;
+   position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  background: black;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid blue;
+  box-shadow: 1px 1px 5px black;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.inp{
+   font-size: 40px;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+  input{
+    font-size: 20px;
+    width: 240px;
+    padding: 5px;
+    border: none;
+  }
+  button{
+    font-size: 15px;
+    margin: 10px 20px;
+    border: none;
+    padding: 8px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 3px 3px 5px ;
+    transition: all .2s ease-in-out;
+   
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
+}
+.out{
+  font-size: 35px;
+  margin-left: 80px;
+  transform: translateY(-20px)
+}
