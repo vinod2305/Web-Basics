@@ -1,0 +1,51 @@
+.container{
+  box-sizing: border-box;
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px black;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  h1{
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  div{
+    font-size: 20px;
+    margin: 10px;
+    input{
+      font-size: 20px;
+      padding: 3px;
+    }
+    select{
+      font-size: 17px;
+      padding: 3px;
+    }
+    output{
+      font-size: 30px;
+      font-weight: bold;
+      background-color: #D3D3D3;
+     
+    }
+  }
+button{
+    font-size: 15px;
+    margin: 10px 20px;
+    border: none;
+    padding: 8px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 3px 3px 5px #aaaaaa;
+    transition: all .2s ease-in-out;
+   
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
+}
