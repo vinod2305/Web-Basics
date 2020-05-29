@@ -1,0 +1,75 @@
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container1 div {
+  padding: 30px;
+  margin: 10px;
+}
+.container1 .box11 {
+  background-color: red;
+}
+.container1 .box12 {
+  background-color: blue;
+}
+.container1 .box13 {
+  background-color: yellow;
+}
+
+.container2 {
+  display: flex;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container2 div {
+  padding: 20px;
+  margin: 10px;
+}
+.container2 .box21 {
+  background-color: pink;
+}
+.container2 .box22 {
+  background-color: green;
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  .container1 div {
+    padding: 30px;
+    margin: 10px;
+  }
+  .container1 .box11 {
+    background-color: red;
+  }
+  .container1 .box12 {
+    background-color: blue;
+  }
+  .container1 .box13 {
+    background-color: yellow;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .container2 div {
+    padding: 20px;
+    margin: 10px;
+  }
+  .container2 .box21 {
+    background-color: pink;
+  }
+  .container2 .box22 {
+    background-color: green;
+  }
+}
