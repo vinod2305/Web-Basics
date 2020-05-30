@@ -1,0 +1,60 @@
+.container{
+  background: grey;
+  margin: 15px;
+  padding: 20px;
+  .container1{
+     display: grid;
+     grid-template-rows: 1fr ;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 15px;
+    margin: 20px;
+    .d1{
+    background: red;
+  }
+  .d2{
+    background: pink;
+  }
+  .d3{
+    background: yellow;
+  }
+  }
+  .container2{
+    display: grid;
+     grid-template-rows: 1fr ;
+     grid-template-columns: 1fr 1fr ;
+     grid-gap: 15px;
+    .d4{
+    background: green;
+  }
+  .d5{
+    background: blue;
+  }
+  }
+  .box{
+    padding: 10px;
+    box-shadow: -2.5px -2.5px 2.5px 0px rgba(0,0,0,0.4), 2.5px 2.5px 2.5px 0px rgba(0,0,0,0.4), -2.5px 2.5px 2.5px 0px rgba(0,0,0,0.4), 2.5px -2.5px 2.5px 0px rgba(0,0,0,0.4);
+    &:hover {
+      box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.4), 5px 5px 5px 0px rgba(0,0,0,0.4), -5px 5px 5px 0px rgba(0,0,0,0.4), 5px -5px 5px 0px rgba(0,0,0,0.4);
+  }
+ }
+   .box-header {
+      text-align: center;
+      font-size: 2em;
+    }  
+}
+@media all and(max-width: 768px){
+  .container .container1{
+   grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  }
+  .container .container2{
+    grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  }
+}
+@media all and(max-width: 1024px) and (min-width: 769px){
+  .container .container1{
+   grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  }
+}
