@@ -1,0 +1,29 @@
+body{
+  background:#fff; 
+}
+.container{
+  border:2px solid black;
+  width: 	640px;  
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+header{
+  background: #e1e1e1;
+  border-bottom: .5px solid #ccc;
+  width: 100%;
+  
+  .fas{
+    box-sizing: border-box;
+    width: 19%;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    font-size: 25px;
+  }
+  .fas:hover{
+    color: #fb3958;
+  }
+  }
+}
