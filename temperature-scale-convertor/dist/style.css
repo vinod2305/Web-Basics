@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  font-family: 'Droid Serif', serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+div {
+  font-size: 18px;
+}
+div input {
+  width: 210px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.far {
+  margin: 30px;
+}
+
+.buttons {
+  margin-left: 90px;
+}
+
+button {
+  font-size: 20px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 3px 3px 5px #aaaaaa;
+  transition: all .2s ease-in-out;
+  padding: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#buttonCel {
+  margin-left: 20px;
+}
+
+#clear {
+  margin-left: 80px;
+}
+
+.cel {
+  margin: 30px;
+}
