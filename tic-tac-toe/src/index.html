@@ -1,0 +1,32 @@
+ <body onload="start()">
+        <div class="table">
+            <div class="title">
+                <h1>Tic Tac Toe</h1>
+                <h2 id="winner"></h2>
+                <h2 id="player"></h2>
+                <br><br>
+                <div class="row" id="row1">
+                    <div class="cell" onclick="playerMoved(this, 1)"></div>
+                    <div class="cell" onclick="playerMoved(this, 2)"></div>
+                    <div class="cell" onclick="playerMoved(this, 4)"></div>
+                </div>
+                <div class="row" id="row2">
+                    <div class="cell" onclick="playerMoved(this, 8)"></div>
+                    <div class="cell" onclick="playerMoved(this, 16)"></div>
+                    <div class="cell" onclick="playerMoved(this, 32)"></div>
+                </div>
+                <div class="row" id="row3">
+                    <div class="cell" onclick="playerMoved(this, 64)"></div>
+                    <div class="cell" onclick="playerMoved(this, 128)"></div>
+                    <div class="cell" onclick="playerMoved(this, 256)"></div>
+                </div>
+            </div>
+        </div>
+        <h2 id="playerOneScoreHead"></h2>
+        <h2 id="playerTwoScoreHead"></h2>
+        <h2 id="timeGameHead">Tie Games: </h2>
+        <div id="playerOneScore">0</div>
+        <div id="playerTwoScore">0</div>
+        <div id="tieGameScore">0</div>
+    </body>
+</html>
