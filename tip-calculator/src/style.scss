@@ -1,0 +1,74 @@
+body{
+  background: rgb(248,248,248);
+  color: white;
+   #container {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: #202020;
+   box-shadow: 10px 10px 15px -8px #000;
+   border-radius: 5px;
+   text-align: center;
+  }
+h1{
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 1px #ddd;
+}
+form{
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  select{
+    padding: 5px;
+    margin: 10px 0;
+  }
+  input[type="text"]{
+    width: 70px;
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+  button {
+    background: white;
+    color: balck;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px 30px;
+    width: 100%;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  button:hover{
+    background: rgb(192,192,192);
+    border-bottom-color: #111;
+  }
+  button:active{
+    position:relative;
+    top: 1px;
+  }
+  #totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+    
+  }
+  #totalTip:before{
+    content:"Tip amount";
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+    sup{
+      font-size: 24px;
+      top: -18px;
+    }
+    small{
+      font-size: 14px;
+      font-weight: bold;
+      display: block;
+    }
+ }
